@@ -1,7 +1,7 @@
 import './src/lib/dayjs'
 
+import { Routes } from './src/routes';
 import { StatusBar } from 'react-native';
-import { Home } from './src/screens/Home';
 import { Loading } from './src/components/Loading';
 
 
@@ -30,7 +30,7 @@ export default function App() {
 
   return (
     <>
-      <Home />
+      <Routes />
       <StatusBar barStyle="light-content" backgroundColor="transparent" translucent />
     </>
   );
